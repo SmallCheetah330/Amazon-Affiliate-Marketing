@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Audio & Zubehör – Top Empfehlungen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(120deg,#f8f8f8,#eee);
+      color: #333;
+    }
+    .hero {
+      background: linear-gradient(135deg,#2c2c2c,#3b3b3b);
+      padding: 60px 20px;
+      text-align: center;
+      color: #fff;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+    .glow-title {
+      font-size: 3rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-shadow: 0 0 10px #ff7f50;
+      margin-bottom: 10px;
+    }
+    .subtext {
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+
+    #products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      padding: 60px 20px;
+    }
+
+    .product-card {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform .3s, box-shadow .3s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    .product-card img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: contain;
+      background-color: #f0f0f0;
+      padding: 10px;
+    }
+
+    .product-card h3 {
+      font-size: 1.1rem;
+      margin: 15px 15px 5px;
+      color: #222;
+    }
+
+    .product-card p {
+      font-size: .9rem;
+      color: #555;
+      padding: 0 15px 15px;
+      line-height: 1.4;
+    }
+
+    .btn {
+      display: block;
+      text-align: center;
+      margin: 0 15px 20px;
+      padding: 10px;
+      background: linear-gradient(135deg,#ff7f50,#ff4500);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: opacity .3s;
+    }
+
+    .btn:hover {
+      opacity: .85;
+    }
+
+    footer {
+      background: #222;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #ff7f50;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <h1 class="glow-title"> PC-Komponente </h1>
+    <p class="subtext">Top-Produkte für Streamer, Gamer & Content Creator</p>
+  </header>
+
+  <section id="products">
+    
+<!-- 1) Intel Core i7-13700K -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/61m0zH-NiTL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Intel Core i7-13700K">
+  <h3>Intel Core i7-13700K</h3>
+  <p>✅ 16 Kerne (8 P + 8 E)<br>✅ Bis zu 5.4 GHz Turbo<br>✅ Hervorragende Gaming- & Multicore-Performance</p>
+  <a href="https://amzn.to/44DzOTV" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 2) AMD Ryzen 7 7800X3D -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/51HqC0rU9HL.__AC_SY300_SX300_QL70_FMwebp_.jpg" alt="AMD Ryzen 7 7800X3D">
+  <h3>AMD Ryzen 7 7800X3D</h3>
+  <p>✅ 8 Kerne / 16 Threads<br>✅ 3D V-Cache für Gaming-Boost<br>✅ Effiziente Leistung & hohe Taktfrequenz</p>
+  <a href="https://amzn.to/4jX8eFP" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 3) NVIDIA GeForce RTX 4070 Ti -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/71z4wLCzcIL.__AC_SY300_SX300_QL70_FMwebp_.jpg" alt="MSI Gaming RTX 5070 Ti">
+  <h3>NVIDIA GeForce RTX 4070 Ti</h3>
+  <p>✅ 16 GB GDDR7 <br>✅ Raytracing & DLSS 3<br>✅ Perfekt für 1440p und 4K Gaming</p>
+  <a href="https://amzn.to/4kmEnXd" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 4) ASUS ROG Strix Z790-E Gaming WiFi -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/81A270EJM5L.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="ASUS ROG Strix Z790-F Gaming WiFi">
+  <h3>ASUS ROG Strix Z790-E Gaming WiFi</h3>
+  <p>✅ Sockel LGA 1700<br>✅ DDR5 Unterstützung<br>✅ Integriertes WiFi 6E & PCIe 5.0</p>
+  <a href="https://amzn.to/4dkPFca" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 5) Corsair Vengeance DDR5 32GB (2x16GB) 6000MHz -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/61XsKRKsGoL.__AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Corsair Vengeance DDR5 32GB 6000MHz">
+  <h3>Corsair Vengeance DDR5 32GB 6000MHz</h3>
+  <p>✅ 32 GB Kit (2x16GB)<br>✅ Hohe Geschwindigkeit & Latenzoptimiert<br>✅ RGB Beleuchtung</p>
+  <a href="https://amzn.to/4dtjbNc" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 6) Samsung 980 Pro 2TB NVMe SSD -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/71KeDAkw+0L._AC_SX300_SY300_.jpg" alt="Samsung 980 Pro 2TB SSD">
+  <h3>Samsung 980 Pro 2TB NVMe SSD</h3>
+  <p>✅ PCIe 4.0<br>✅ Bis zu 7.000 MB/s Lesen<br>✅ 2TB Kapazität für schnellen Speicher</p>
+  <a href="https://amzn.to/44Jxzi2" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 7) Noctua NH-D15 CPU Kühler -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/51-eBeqvOrL._SY445_SX342_QL70_FMwebp_.jpg" alt="Noctua NH-D15 CPU Kühler">
+  <h3>Noctua NH-D15</h3>
+  <p>✅ Dual-Tower Luftkühler<br>✅ Leise & extrem effizient<br>✅ Hohe Kühlleistung für Overclocking</p>
+  <a href="https://amzn.to/3ZqFWLF" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 8) Corsair RM850x 850W Netzteil -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/61eKAbgBZRL.__AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Corsair RM850x 850W Netzteil">
+  <h3>Corsair RM850x 850W</h3>
+  <p>✅ 80 PLUS Gold zertifiziert<br>✅ Vollmodular<br>✅ Hohe Effizienz & leiser Lüfter</p>
+  <a href="https://amzn.to/3F77ten" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 9) MSI GeForce RTX 4060 Ventus -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/61q0rsE3ezL.__AC_SY300_SX300_QL70_FMwebp_.jpg" alt="MSI GeForce RTX 4060 Ventus">
+  <h3>MSI GeForce RTX 4060 Ventus</h3>
+  <p>✅ 8GB GDDR6<br>✅ Raytracing & DLSS 3 Support<br>✅ Gute Preis-Leistung für 1080p Gaming</p>
+  <a href="https://amzn.to/4mk1i7m" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 10) G.Skill Trident Z5 RGB DDR5 32GB 6000MHz -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/51jIjdpZBfL.__AC_SY300_SX300_QL70_FMwebp_.jpg" alt="G.Skill Trident Z5 RGB DDR5 32GB 6000MHz">
+  <h3>G.Skill Trident Z5 RGB DDR5 32GB 6000MHz</h3>
+  <p>✅ DDR5 RAM<br>✅ RGB Beleuchtung<br>✅ Für High-End Gaming und Workstations</p>
+  <a href="https://amzn.to/3FeUC9Z" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 11) Western Digital Black SN850X 1TB -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/61KeSQhDm4L.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="WD Black SN850X 1TB">
+  <h3>WD Black SN850X 1TB NVMe SSD</h3>
+  <p>✅ PCIe 4.0<br>✅ Bis zu 7.300 MB/s Lesen<br>✅ Ideal für Gaming-PCs</p>
+  <a href="https://amzn.to/3YQODib" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 12) be quiet! Pure Power 12 600W -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/61Y8F-3iExL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="be quiet! Pure Power 12 600W">
+  <h3>be quiet! Pure Power 12 600W</h3>
+  <p>✅ 80 PLUS Gold<br>✅ Sehr leise<br>✅ Vollmodular</p>
+  <a href="https://amzn.to/4mkVmuX" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 13) Cooler Master Hyper 212 Black Edition -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/41lddbz57kL._SY445_SX342_QL70_FMwebp_.jpg" alt="Cooler Master Hyper 212 Black Edition">
+  <h3>Cooler Master Hyper 212 Black Edition</h3>
+  <p>✅ Beliebter Luftkühler<br>✅ Silent Fan<br>✅ Gute Kühlleistung fürs Budget</p>
+  <a href="https://amzn.to/3H0g9nq" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 14) NZXT H510 Gehäuse -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/71hWSa+lUOL._AC_SY300_SX300_.jpg" alt="NZXT H510 Gehäuse">
+  <h3>NZXT H510</h3>
+  <p>✅ Modernes Midi-Tower Gehäuse<br>✅ Tempered Glass Side Panel<br>✅ Guter Airflow</p>
+  <a href="https://amzn.to/44DErNK" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 15) ASRock B650M Pro RS -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/71ckwLMkNZL.__AC_SY300_SX300_QL70_FMwebp_.jpg" alt="ASRock B650M Pro RS">
+  <h3>ASRock B650M Pro RS</h3>
+  <p>✅ AM5 Sockel<br>✅ DDR5 Unterstützung<br>✅ Micro-ATX Mainboard</p>
+  <a href="https://amzn.to/3H1EngY" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+
+<!-- 16) Thermaltake Toughpower GF3 850W -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/81YBlfJYw9L.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Thermaltake Toughpower GF3 850W">
+  <h3>Thermaltake Toughpower GF3 850W</h3>
+  <p>✅ 80 PLUS Gold<br>✅ Vollmodular<br>✅ Hohe Effizienz & leiser Lüfter</p>
+  <a href="https://amzn.to/44KW5zi" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 17) Corsair iCUE H150i Elite LCD -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/71EN9Vc-qsL._SX522_.jpg" alt="Corsair iCUE H150i Elite LCD">
+  <h3>Corsair iCUE H150i Elite LCD</h3>
+  <p>✅ 360mm AIO-Wasserkühlung<br>✅ LCD Display auf Pumpe<br>✅ RGB Beleuchtung</p>
+  <a href="https://amzn.to/3SECCJ0" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 18) Kingston FURY Renegade 32GB DDR5 6000MHz -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/71gKWkAmh1L.__AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Kingston FURY Renegade 32GB DDR5 6000MHz">
+  <h3>Kingston FURY Renegade 32GB DDR5 6000MHz</h3>
+  <p>✅ High-Performance DDR5 RAM<br>✅ Ideal für Gaming und kreative Anwendungen<br>✅ Overclocking-fähig</p>
+  <a href="https://amzn.to/3GYK0g1" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 19) EVGA GeForce RTX 4080 FTW3 -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/81cAdtqu-6L.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="EVGA GeForce RTX 3080ti FTW3">
+  <h3>EVGA GeForce RTX 3080 Ti FTW3</h3>
+  <p>✅ 16GB GDDR6X<br>✅ Spitzen-Gaming-Performance<br>✅ RGB Beleuchtung & Custom Kühlsystem</p>
+  <a href="https://amzn.to/4j9N3zm" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 20) Crucial P3 Plus 1TB NVMe SSD -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/51pMg25AthL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Crucial P3 Plus 1TB NVMe SSD">
+  <h3>Crucial P3 Plus 1TB NVMe SSD</h3>
+  <p>✅ PCIe 4.0<br>✅ Schnelle Ladezeiten<br>✅ Gutes Preis-Leistungs-Verhältnis</p>
+  <a href="https://amzn.to/3H2do4R" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 21) Fractal Design Meshify 2 Gehäuse -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/71VBHEeEYSL.__AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Fractal Design Meshify 2">
+  <h3>Fractal Design Meshify 2</h3>
+  <p>✅ High-Airflow Midi-Tower<br>✅ Tempered Glass Side Panel<br>✅ Viel Platz für Komponenten</p>
+  <a href="https://amzn.to/4dt1SvK" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 22) Intel Arc A770 Grafikkarte -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/61gGwheG-9L.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Intel Arc A770 Grafikkarte">
+  <h3>Intel Arc B570</h3>
+  <p>✅ 16GB GDDR6<br>✅ Neue Gaming-Architektur<br>✅ Konkurrenz für Mittelklasse-GPUs</p>
+  <a href="https://amzn.to/4mlo0Mt" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 23) SilverStone SFX 650W Netzteil -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/51KAoRCZ3uL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="SilverStone SFX 650W Netzteil">
+  <h3>SilverStone SFX 650W</h3>
+  <p>✅ 80 PLUS Gold<br>✅ Kompaktes Netzteil für kleine Gehäuse<br>✅ Vollmodular</p>
+  <a href="https://amzn.to/4dkQHoy" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 24) Lian Li PC-O11 Dynamic EVO Gehäuse -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/617EO7rVz9L.__AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Lian Li PC-O11 Dynamic EVO">
+  <h3>Lian Li PC-O11 Dynamic EVO</h3>
+  <p>✅ Premium Case mit viel Glas<br>✅ Unterstützt Wasserkühlung<br>✅ Große Modularität</p>
+  <a href="https://amzn.to/4mmPt02" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+
+  </section>
+
+  <footer>
+    <p><a href="index.html">← Zurück zur Startseite</a></p>
+    <p>&copy; 2025 - Affiliate Zone</p>
+  </footer>
+
+</body>
+</html>

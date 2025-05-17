@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Audio & Zubehör – Top Empfehlungen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(120deg,#f8f8f8,#eee);
+      color: #333;
+    }
+    .hero {
+      background: linear-gradient(135deg,#2c2c2c,#3b3b3b);
+      padding: 60px 20px;
+      text-align: center;
+      color: #fff;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+    .glow-title {
+      font-size: 3rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-shadow: 0 0 10px #ff7f50;
+      margin-bottom: 10px;
+    }
+    .subtext {
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+
+    #products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      padding: 60px 20px;
+    }
+
+    .product-card {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform .3s, box-shadow .3s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    .product-card img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: contain;
+      background-color: #f0f0f0;
+      padding: 10px;
+    }
+
+    .product-card h3 {
+      font-size: 1.1rem;
+      margin: 15px 15px 5px;
+      color: #222;
+    }
+
+    .product-card p {
+      font-size: .9rem;
+      color: #555;
+      padding: 0 15px 15px;
+      line-height: 1.4;
+    }
+
+    .btn {
+      display: block;
+      text-align: center;
+      margin: 0 15px 20px;
+      padding: 10px;
+      background: linear-gradient(135deg,#ff7f50,#ff4500);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: opacity .3s;
+    }
+
+    .btn:hover {
+      opacity: .85;
+    }
+
+    footer {
+      background: #222;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #ff7f50;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <h1 class="glow-title">📈 Online Business Tools</h1>
+    <p class="subtext">Top-Produkte für Streamer, Gamer & Content Creator</p>
+  </header>
+
+  <section id="products">
+   
+  <!-- 1 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/71iNwni9TsL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Logitech C920">
+    <h3>Logitech C920 HD Webcam</h3>
+    <p>✅ Ideal für Zoom Calls, YouTube & Kurse</p>
+    <a href="https://amzn.to/43k0jvo" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 2 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/61egnO8q6ZL._AC_SY450_.jpg" alt="Blue Yeti Mikrofon">
+    <h3>Blue Yeti USB Mikrofon</h3>
+    <p>✅ Professioneller Sound für Podcasts & Videos</p>
+    <a href="https://amzn.to/42S79cs" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 3 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/41j9tTOAr3L._SX342_SY445_PQ26_.jpg" alt="Microsoft 365 Family">
+    <h3>Microsoft 365 Family</h3>
+    <p>✅ Office Suite für bis zu 6 Nutzer inkl. 1 TB Cloud</p>
+    <a href="https://amzn.to/4mgkjI1" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 4 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/61PZ9FQW15L.__AC_SY445_SX342_QL70_FMwebp_.jpg" alt="Adobe Photoshop Elements">
+    <h3>Adobe Photoshop Elements 2024</h3>
+    <p>✅ Bildbearbeitung leicht gemacht</p>
+    <a href="https://amzn.to/4dqLZFY" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 5 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/51SHNqAFCVL.__AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Amazon Echo Dot 5">
+    <h3>Amazon Echo Dot 5</h3>
+    <p>✅ Sprachsteuerung fürs Büro & smarte Organisation</p>
+    <a href="https://amzn.to/4mkVVoo" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 6 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/51ovuAC+fML._AC_SY300_SX300_.jpg" alt="Bose Noise Cancelling 700">
+    <h3>Bose NC Headphones 700</h3>
+    <p>✅ Fokus beim Arbeiten – kein Lärm, keine Ablenkung</p>
+    <a href="https://amzn.to/43iuRO5" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 7 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/61zuR3UMnWL._AC_SY879_.jpg" alt="SanDisk SSD 1TB">
+    <h3>SanDisk Portable SSD 1TB</h3>
+    <p>✅ Schnelles Backup & Mobilität für Unternehmer*innen</p>
+    <a href="https://amzn.to/4miTu5O" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 8 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/714iE8MgXqL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Ringlicht mit Stativ">
+    <h3>LED Ringlicht mit Stativ</h3>
+    <p>✅ Perfektes Licht für Reels, Lives & YouTube</p>
+    <a href="https://amzn.to/3FdJUAr" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 9 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/81i9nDusNjL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Canon EOS M50 II">
+    <h3>Canon EOS M50 Mark II</h3>
+    <p>✅ Kamera für Content Creation & Livestreams</p>
+    <a href="https://amzn.to/433ffiz" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 10 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/61VwrrmZvdL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="HP OfficeJet Pro 9125e">
+    <h3>HP OfficeJet Pro 9012e</h3>
+    <p>✅ Smart-Drucker fürs Büro mit App-Steuerung</p>
+    <a href="https://amzn.to/43iwStn" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 11 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/41coHDLKPgL._SY445_SX342_PQ26_.jpg" alt="Taschenbuch Digitales Marketing">
+    <h3>Marketing-Bestseller: "Digital Uncovered"</h3>
+    <p>✅ Alles über Social Media, Funnels & Growth Hacking</p>
+    <a href="https://amzn.to/43g2a4c" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 12 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/61Dz1qvtZcL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Elgato Stream Deck Mini">
+    <h3>Elgato Stream Deck Mini</h3>
+    <p>✅ Automatisierung für Zoom, OBS & mehr</p>
+    <a href="https://amzn.to/4318UnH" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 13 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/81CFn-NfutL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="ASUS ProArt Display">
+    <h3>ASUS ProArt Monitor 27"</h3>
+    <p>✅ Farbtreue für Design, Schnitt & Layout</p>
+    <a href="https://amzn.to/3SFRkj2" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 14 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/41dR7PxDWKL._SY445_SX342_PQ26_.jpg" alt="4000 Wochen: Das Leben ist zu kurz für Zeitmanagement">
+    <h3>Buch: Die 4-Stunden-Woche</h3>
+    <p>✅ Klassiker für ortsunabhängiges Business</p>
+    <a href="https://amzn.to/4krZw2r" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 15 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/81uE9ccw8bL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Anker PowerConf S3">
+    <h3>Anker PowerConf S3 Konferenzlautsprecher</h3>
+    <p>✅ Für klare Online-Meetings im Team</p>
+    <a href="https://amzn.to/43wX2tM" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 16 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/71XhqIB3DLL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Tablet mit Tastatur">
+    <h3>Samsung Galaxy Tab S9 FE</h3>
+    <p>✅ Mobiles Arbeiten – inkl. S Pen & Tastatur</p>
+    <a href="https://amzn.to/4jW1pEt" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 17 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/61mgtCLyVXL.__AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Amazon Basics Green Screen">
+    <h3>Amazon Basics Green Screen</h3>
+    <p>✅ Hintergrund für Webinare, Lives & Streams</p>
+    <a href="https://amzn.to/3EVaxu4" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 18 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/51m4354BqaL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Logitech MX Master 3S">
+    <h3>Logitech MX Master 3S</h3>
+    <p>✅ Business-Maus mit Produktivitätsfunktionen</p>
+    <a href="https://amzn.to/3StPORf" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+
+  <!-- 19 -->
+  <div class="product-card">
+    <img src="https://m.media-amazon.com/images/I/31tbavFkDUL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Amazon Echo Show 8">
+    <h3>Amazon Echo Show 8 (2023)</h3>
+    <p>✅ Kalender, Alexa & Videokonferenzen</p>
+    <a href="https://amzn.to/45bFc0D" target="_blank" class="btn">Jetzt kaufen</a>
+  </div>
+  
+  <!-- 20) Canon EOS R50 Content Creator Kit -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/914SKex29LL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Canon EOS R50">
+  <h3>Canon EOS R50 Creator Kit</h3>
+  <p>✅ 4K-Video ohne Crop<br>✅ Inkl. Mikrofon & Stativgriff<br>✅ Perfekt für Content-Erstellung & Streaming</p>
+  <a href="https://amzn.to/3S4rCEK" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 21) Rode NT-USB Mikrofon -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/51Qshd1JNaL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Rode NT-USB Mikrofon">
+  <h3>Rode NT-USB Mikrofon</h3>
+  <p>✅ USB Plug & Play<br>✅ Inkl. Popschutz & Stativ<br>✅ Ideal für Podcast, Zoom, YouTube</p>
+  <a href="https://amzn.to/4dFAJG1" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 22) GVM LED Videoleuchte Set -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/716Ln1451HL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="GVM LED Videoleuchte">
+  <h3>GVM LED Videoleuchte Set</h3>
+  <p>✅ Bi-Color & dimmbar<br>✅ Inkl. Stativen & Softbox<br>✅ Ideal für professionelle Videos & Streams</p>
+  <a href="https://amzn.to/4mbtCZw" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 23) Logitech Brio 4K Webcam -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/71SAamTGWQL._AC_SX679_.jpg" alt="Logitech Brio 4K">
+  <h3>Logitech Brio 4K Webcam</h3>
+  <p>✅ Ultra-HD 4K-Auflösung<br>✅ Windows Hello & Autofokus<br>✅ Ideal für professionelle Calls & Streams</p>
+  <a href="https://amzn.to/3HbU3y8" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+<!-- 24) Elgato Green Screen -->
+<div class="product-card">
+  <img src="https://m.media-amazon.com/images/I/41Cun613SBL._AC_SX679_.jpg" alt="Elgato Green Screen">
+  <h3>Elgato Green Screen</h3>
+  <p>✅ Ausziehbar & faltbar<br>✅ Chromakey optimiert<br>✅ Perfekt für Streamer & Video Calls</p>
+  <a href="https://amzn.to/4jaJkRY" target="_blank" class="btn">Jetzt kaufen</a>
+</div>
+
+  </section>
+
+  <footer>
+    <p><a href="index.html">← Zurück zur Startseite</a></p>
+    <p>&copy; 2025 - Affiliate Zone</p>
+  </footer>
+
+</body>
+</html>
